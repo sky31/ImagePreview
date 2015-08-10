@@ -39,7 +39,7 @@
         document.getElementById("image-preview"+num).src = oFREvent.target.result;
     };
     function imagePreview(obj) {
-        console.error("hehe2");
+       
         num = $(obj).attr("id").split("-")[1];	//分割id的后缀。
         if (obj.files.length === 0) {
             return;
